@@ -1,0 +1,49 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Wildcard to apply some basic styles to override browser default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    text-transform:uppercase;
+}
+
+body {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+.header {
+    background-color: #f0ffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+/* Main */
+.main {
+    background-color: bisque center center / cover;
+    position: relative;
+    margin-top: 100px;
+}
+
+/* Footer */
+.footer {
+    background-color: chartreuse;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
