@@ -24,19 +24,33 @@ body {
 }
 
 /* Header */
-.header {
-    background-color: #f0ffff;
+#header {
+    background-color: #ffffff;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 99;
+    display: flex;
 }
+
+.nav {
+    text-decoration: none;
+}
+
+.nav ul {
+    padding-left: 3px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
 
 /* Main */
 .main {
-    background-color: bisque center center / cover;
+    background-color: red;
+    width: 100%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* Footer */
