@@ -35,14 +35,16 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
 }
 
 #header div {
     padding: 2px;
+    /* max-height: 79px; */
 }
 
 #logo {
-    flex-basis: 66%;
+    /* flex-basis: 66%; */
     color: inherit;
     align-self: flex-start;
     line-height: 75px;
@@ -52,16 +54,17 @@ body {
     text-decoration: none;
 }
 
-#nav {
+/* #nav {
     flex-basis: 33%;
     align-self: flex-end;
-}
+} */
 
-.nav {
+#nav2 {
     text-decoration: none;
     padding-right: 5px;
     flex-wrap: wrap;
     color: inherit;
+    line-height: 75px;
     }
 
 nav ul {
@@ -72,18 +75,25 @@ nav ul {
     list-style: none;
 }
 
-.nav li {
+#nav2 li {
     display: inline;
     padding: 2px;
+    text-decoration: none;
+}
+
+#nav a {
+    text-decoration: none;
 }
 
 #nav a:hover {
     border-bottom: 1px solid #191970;
 }
 
-.active {
+/* To show where user hovers over a nav link */
+.active:hover {
+        border-bottom: 1px solid;
+    }
 
-}
 
 
 /* Main */
@@ -118,3 +128,13 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+    #nav2 {
+        font-size: 25%;
+        line-height: 25px;
+    }
+   #logo {
+    line-height: 25px;
+   }
+}
