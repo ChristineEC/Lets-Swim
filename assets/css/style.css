@@ -40,6 +40,10 @@ body {
     padding-top: 5px;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .nav {
     text-decoration: none;
     padding-right: 5px;
@@ -63,7 +67,9 @@ body {
     background: url("../images/pool-water-light.jpg") no-repeat center center;
     margin-top: 60px;
 }
-.main-heading-text
+.main-heading-text {
+
+}
 
 
 /* Footer */
