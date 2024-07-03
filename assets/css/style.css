@@ -105,11 +105,30 @@ nav ul {
     width: 100%;
     height: 600px;
     background: url("../images/pool-water-light.jpg") no-repeat center center / cover;
-    margin-top: 60px;
+    margin-top: 79x;
+    padding: 75px;
+    align-content: center;
 }
 
-.main-heading-text {
+#headlines {
+    background-color: rgba(230, 240, 240, .75);
+    border: 1px solid;
+    text-align: center;
+    /* padding 50px; */
+    radius: 25%;
+}
 
+#headlines h2, h3 {
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+#headlines h3 {
+    padding-bottom: 30px;
+}
+
+.home-page-images {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
