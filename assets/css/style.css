@@ -19,7 +19,7 @@ h2 {
 
 body {
     font-family: "ABeeZee", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -54,12 +54,17 @@ body {
 
 
 /* Main */
-.main {
-    background-color: red;
+
+/* Hero image */
+
+    #hero-image {
     width: 100%;
-    position: relative;
-    margin-top: 50px;
+    height: 600px;
+    background: url("../images/pool-water-light.jpg") no-repeat center center;
+    margin-top: 60px;
 }
+
+
 
 /* Footer */
 .footer {
