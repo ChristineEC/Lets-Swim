@@ -37,6 +37,10 @@ body {
     justify-content: space-between;
 }
 
+#header div {
+    padding: 2px;
+}
+
 .logo {
     flex-basis; 66%;
     color: inherit;
@@ -59,11 +63,17 @@ body {
     color: inherit;
     }
 
-.nav ul {
+nav ul {
     padding-left: 3px;
     list-style-type: none;
     letter-spacing: 2px;
     text-decoration: none;
+    list-style: none;
+}
+
+.nav li {
+    display: inline;
+    padding: 2px;
 }
 
 
