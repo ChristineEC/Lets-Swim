@@ -41,13 +41,14 @@ body {
     padding: 2px;
 }
 
-.logo {
-    flex-basis; 66%;
+#logo {
+    flex-basis: 66%;
     color: inherit;
     align-self: flex-start;
     line-height: 75px;
 }
-.logo a {
+
+#logo a {
     text-decoration: none;
 }
 
