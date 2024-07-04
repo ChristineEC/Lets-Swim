@@ -129,8 +129,9 @@ nav ul {
 /* Images in Headings Section */
 
 #container-hp-images {
-    height: 600px;
+    height: 900px;
     background: url("../images/pool-water-light.jpg") no-repeat center center / cover;
+    width: 100%;
     margin-top: 79x;
     padding: 75px;
     align-content: center;
