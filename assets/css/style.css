@@ -128,8 +128,8 @@ nav ul {
 
 /* Images in Headings Section */
 
-#home-page-images {
-    flow-flow: row wrap;
+#container-hp-images {
+    flow-flow: column wrap;
 }
 
 
