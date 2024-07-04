@@ -19,7 +19,11 @@ The code for horizontally centering the logo (text) and the nav using line-heigh
 
 For a reminder on how to style the nav list items horizontally, I referred to [W3 Schools](https://www.w3schools.com/css/css_navbar_horizontal.asp).
 
-For a reminder of how to include the a:hover pseudoclass, I referred to the Love Running video Navigation Styling 2.
+For a reminder of the correct syntax for using the hover pseudoclass, I referred to the Love Running video Navigation Styling 2 as well as [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover). My first solution worked in the browser but failed a validation test, and that is when I consulted MDN.
+
+I resolved an error message concerning the nav elements containing more than one class attribute, with class= used twice, by placing both attributes inside the same set of parentheses.
+
+
 
 ####Main
 
