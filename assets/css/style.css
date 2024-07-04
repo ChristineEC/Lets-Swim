@@ -9,14 +9,15 @@
 }
 
 
-h2 {
+h1 {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
 }
 
 h2 {
-    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
 }
+
 
 body {
     font-family: "ABeeZee", sans-serif;
@@ -45,10 +46,14 @@ body {
 }
 
 #logo {
-    /* flex-basis: 66%; */
     color: inherit;
     align-self: flex-start;
     line-height: 75px;
+}
+
+#logo h1 {
+    font-family: "ABeeZee", sans-serif;
+    text-transform: none;
 }
 
 #logo a {
@@ -92,7 +97,7 @@ nav ul {
 
 /* To show where user hovers over a nav link */
 .active:hover {
-        border-bottom: 1px solid;
+    border-bottom: 1px solid;
     }
 
 
@@ -103,32 +108,32 @@ nav ul {
 
     #headings-section {
     width: 100%;
-    height: 600px;
-    background: url("../images/pool-water-light.jpg") no-repeat center center / cover;
-    margin-top: 79x;
-    padding: 75px;
-    align-content: center;
+    height: fit-content;
+    background-color: rgb(152, 223, 245);
 }
 
 #headlines {
-    background-color: rgba(230, 240, 240, .75);
     border: 1px solid;
     text-align: center;
-    /* padding 50px; */
-    radius: 25%;
+    margin-top: 79px;
 }
 
-#headlines h2, h3 {
-    padding-top: 30px;
-    letter-spacing: 3px;
+#headlines h1, h2 {
+    letter-spacing: 1px;
+    padding-top: 15px;
 }
-#headlines h3 {
-    padding-bottom: 30px;
+#headlines h2 {
+    padding-bottom: 15px;
 }
 
 /* Images in Headings Section */
 
 #container-hp-images {
+    height: 600px;
+    background: url("../images/pool-water-light.jpg") no-repeat center center / cover;
+    margin-top: 79x;
+    padding: 75px;
+    align-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

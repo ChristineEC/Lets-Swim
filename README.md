@@ -27,7 +27,11 @@ I resolved an error message concerning the nav elements containing more than one
 
 ####Main
 
-The main section of the home page has a background image of sparkling water that covers the entire section.
+The main section of the home page has a simple, bold and easy to read headline and tag, announcing the nature of services and intended audience. This is followed by a section with a water background and collage of photos depicting swimmers of all ages and cultural backgrounds, as well as images encouraging acceptance of differences, including one for autism. Further text details the business's broader objective of inclusion and inviting the user to visit the activities page for more details about the business's offerings.
+
+Originally, the headline and tag were placed against the water background, but this required a lighter container box for purposes of visibility, and it was felt that this feature did not work well on the slimmest mobile phones. Therefore, it was decided to keep the headings section separate at the top. Moving the water background to the images section also helped with the styling of the images. These were set to flex flow (row), and they looked better on a wide variety of devices with a background instead of the default white. A more experienced developer with more time could simply have the images in a row, with the user able to use an arrow to make scroll horizontally through the images.
+
+
 
 ####Footer
 The footer includes the name of the business, city and country location (as the business is home-based--more detailed location to be included on the contact page), contact details, and two hyperlinked social media icons that open in new table, with aria-labels (for accessibility) inviting the user to visit the business on Facebook and Instagram, respectively. The footer has been made responsive using flex properties, and the height is set to auto to enhance responsiveness.
