@@ -129,7 +129,9 @@ nav ul {
 /* Images in Headings Section */
 
 #container-hp-images {
-    flow-flow: column wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
