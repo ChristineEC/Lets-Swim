@@ -46,23 +46,20 @@ body {
 #logo {
     color: inherit;
     align-self: flex-start;
-    line-height: 75px;
+    /* line-height: 75px; */
     padding-left: 2px;
 }
 
 #logo h1 {
     font-family: "ABeeZee", sans-serif;
     text-transform: none;
+    line-height: 75px;
 }
 
 #logo a {
     text-decoration: none;
 }
 
-/* #nav {
-    flex-basis: 33%;
-    align-self: flex-end;
-} */
 
 #nav2 {
     text-decoration: none;
@@ -149,7 +146,14 @@ position: relative;
     background-color: rgba(152, 223, 245, 0.6);
     padding: 1px 2px;
 }
+/* Call to action */
+.call-to-action {
+    padding: 5px;
+}
 
+.call-to-action h4, p {
+    font-family: "Montserrat", sans-serif;
+}
 
 /* Footer */
 footer {
@@ -174,13 +178,18 @@ footer {
         font-size: 25%;
         line-height: 25px;
     }
+}
    #logo {
     line-height: 25px;
    }
 
-   #headings {
-
+   /* Media query for laptops */
+@media screen and (max-width: 1200px) {
+     #container-hero-section {
+    height: 500px;
    }
-
+   .hero-text h3 {
+    font-size: 100%;
+    line height: 25px;
    }
-
+}
