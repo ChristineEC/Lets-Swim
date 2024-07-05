@@ -9,13 +9,13 @@
 }
 
 
-h1 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+h1,
+h2 {
+    font-family: "Montserrat", sans-serif; 
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -23,7 +23,6 @@ body {
     font-family: "ABeeZee", sans-serif;
     font-weight: 300;
     font-style: normal;
-    color: #191970;
 }
 
 
@@ -37,18 +36,18 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-
+    max-height: 79px;
 }
 
 #header div {
-    padding: 2px;
-    /* max-height: 79px; */
+    max-height: 79px;
 }
 
 #logo {
     color: inherit;
     align-self: flex-start;
     line-height: 75px;
+    padding-left: 2px;
 }
 
 #logo h1 {
@@ -106,10 +105,10 @@ nav ul {
 
 /* Headings section */
 
-    #headings-section {
-    width: 100%;
-    height: fit-content;
-    background-color: rgb(152, 223, 245);
+#headings-section {
+width: 100%;
+height: fit-content;
+background-color: rgb(152, 223, 245);
 }
 
 #headlines {
@@ -126,24 +125,32 @@ nav ul {
     padding-bottom: 15px;
 }
 
-/* Images in Headings Section */
+/* Hero Section */
 
-#container-hp-images {
-    height: 900px;
-    background: url("../images/pool-water-light.jpg") no-repeat center center / cover;
+#container-hero-section {
+    height: 600px;
+    background: url("../images/pool-water-light.jpg");
     width: 100%;
-    margin-top: 79x;
-    padding: 75px;
-    align-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
+.hero-text {
+    text-align: left;
+    font-size: xx-large;
+    display: flex;
+}
+
+.wrap-text h {
+    text-wrap: wrap;
+}
 
 /* Footer */
 footer {
-    background-color: #ffffff;
+    background-color: rgb(152, 223, 245);
     position: fixed;
     width: 100%;
     height: auto;
@@ -166,4 +173,4 @@ footer {
    #logo {
     line-height: 25px;
    }
-}
+
