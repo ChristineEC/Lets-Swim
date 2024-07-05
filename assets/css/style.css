@@ -136,7 +136,7 @@ position: relative;
 
 .hero-text {
     text-align: center;
-    font-size: xx-large;
+    font-size: 125%;
     letter-spacing: 2px;
     align-content: center;
 }
@@ -149,6 +149,7 @@ position: relative;
 /* Call to action */
 .call-to-action {
     padding: 5px;
+    top-margin: 15px;
 }
 
 .call-to-action h4, p {
@@ -163,6 +164,7 @@ footer {
     height: auto;
     bottom: 0;
     padding: 5px;
+    margin-top: 15px;
 }
 
 .footer-content {
@@ -183,11 +185,22 @@ footer {
     line-height: 25px;
    }
 
+   .hero-text {
+    font-size:smaller;
+    line height: 15rem;
+   }
+
+   .call-to-action h4, p {
+    line-height: 15px;
+    font-size: x-small;
+   }
+
    /* Media query for laptops */
 @media screen and (max-width: 1200px) {
      #container-hero-section {
     height: 500px;
    }
+
    .hero-text {
     font-size:smaller;
     line height: 25px;
