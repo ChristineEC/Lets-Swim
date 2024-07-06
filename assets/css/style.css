@@ -149,7 +149,7 @@ position: relative;
 /* Call to action */
 .call-to-action {
     padding: 5px;
-    top-margin: 15px;
+    margin-top: 15px;
 }
 
 .call-to-action h4, p {
@@ -239,6 +239,6 @@ footer {
 
    .hero-text {
     font-size:smaller;
-    line height: 25px;
+    line-height: 25px;
    }
 }
