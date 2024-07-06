@@ -174,6 +174,40 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Classes Page */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%
+}
+
+#classes-main-div {
+    background-color: rgb(152, 223, 245);
+    width: 100%;
+    flex: column;
+    min-height: 900px;
+    margin: 79px;
+    padding: 5rem;
+    font-family: Montserrat, sans-serif;
+}
+
+#accommodations {
+    list-style: circle;
+    padding: 2px;
+}
+
+.times th, td {
+    justify-content: center;
+
+}#hours-head {
+    padding-bottom: 2px;
+}
+
+
+
+
 /* Media query for mobile phones */
 @media screen and (max-width: 480px) {
     #nav2 {
