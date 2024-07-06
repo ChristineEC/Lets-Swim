@@ -189,19 +189,19 @@ footer {
     flex: column;
     min-height: 900px;
     margin: 79px;
-    padding: 5rem;
+    padding: 2px;
     font-family: Montserrat, sans-serif;
 }
 
 #accommodations {
     list-style: circle;
-    padding: 2px;
 }
 
 .times th, td {
-    justify-content: center;
+    text-align: right;
+}
 
-}#hours-head {
+#hours-head {
     padding-bottom: 2px;
 }
 
