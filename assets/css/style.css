@@ -188,21 +188,23 @@ footer {
     width: 100%;
     flex: column;
     min-height: 900px;
-    margin: 79px;
+    margin-top: 79px;
     padding: 2px;
     font-family: Montserrat, sans-serif;
 }
 
 #accommodations {
     list-style: circle;
+    padding: 5px;
 }
 
 .times th, td {
-    text-align: right;
+    text-align: left;
 }
 
 #hours-head {
     padding-bottom: 2px;
+    text-align: left;
 }
 
 
