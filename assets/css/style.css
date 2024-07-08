@@ -140,14 +140,24 @@ position: relative;
     padding: 1px 2px;
 }
 
-/* Call to action */
-.call-to-action {
-    padding: 5px;
-    margin-top: 15px;
+/* Lessons and Contact */
+.after-hero-sections {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.call-to-action h4, p {
-    font-family: "Montserrat", sans-serif;
+.accommodations {
+    padding-left: 30px;
+}
+    
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
 }
 
 /* Footer */
