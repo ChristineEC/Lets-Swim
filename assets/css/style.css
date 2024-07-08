@@ -160,6 +160,8 @@ position: relative;
     justify-content: center;
 }
 
+
+
 /* Footer */
 #footer {
     background-color: rgb(152, 223, 245);
@@ -197,8 +199,8 @@ position: relative;
     font-family: Montserrat, sans-serif;
 }
 
-#accommodations {
-    list-style: circle;
+.accom-ul {
+    list-style: disc;
 }
 
 .times th, td {
