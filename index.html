@@ -40,13 +40,13 @@
                                 <a href="index.html" class="nav active">Home</a>
                             </li>
                             <li>
-                                <a href="#" class="nav">Lessons</a>
+                                <a href="#lessons" class="nav">Lessons</a>
                             </li>
                             <li>
-                                <a href="#" class="nav">Accommodations</a>
+                                <a href="#accommodations" class="nav">Accommodations</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -84,28 +84,28 @@
                     adapt the conditions to meet your needs.</p>
                 <p>Contact us directly or, better yet, use our <span><a href="contact.html">contact form</a></span>
                     to tell us a little about your needs.</p>
-
-                <section id="accommodations">
-                    <div class="accom-div">
-                        <h5>A few of the accommodations we offer:</h5>
-                        <ul class="accomm-ul">
-                            <li>Quiet hour: for students who need calm and quiet in order to participate</li>
-                            <li>Total privacy: for people who want to stay covered up (burkinis welcome) or out of the
-                                public eye</li>
-                            <li>Bring your own teacher or aide: for students who may benefit (special pricing available)
-                            </li>
-                            <li>Discounts for siblings</li>
-                            <li>Discounts for low-income families</li>
-                            <li>Assisted pool entry and exit</li>
-                            <li>Warm water temperature and a high pool cover for chilly days</li>
-                        </ul>
-                    </div>
-                </section>
             </section>
+
+            <section id="accommodations" class="section">
+                <h3>Accommodations</h3>
+                <h5>A few of the accommodations we offer:</h5>
+                <ul class="accomm-ul">
+                    <li>Quiet hour: for students who need calm and quiet in order to participate</li>
+                    <li>Total privacy: for people who want to stay covered up (burkinis welcome) or out of the
+                        public eye</li>
+                    <li>Bring your own teacher or aide: for students who may benefit (special pricing available)
+                    </li>
+                    <li>Discounts for siblings</li>
+                    <li>Discounts for low-income families</li>
+                    <li>Assisted pool entry and exit</li>
+                    <li>Warm water temperature and a high pool cover for chilly days</li>
+                </ul>
+            </section>
+
 
             <!-- Contact Section -->
             <section id="contact" class="section">
-                <h3><a href="#">Contact</a></h3>
+                <h3>Contact</h3>
                 <div id="contact-text"></div>
                 <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls and
                     email messages within 24 hours. You'll find our <a href="#">contact information</a>at the bottom of
@@ -117,15 +117,15 @@
     </div>
     <div id="contact-form">
         <label for="Name">Name</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required>
         <label for="email">Email address</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <label for="phone">Telephone number</label>
         <input type="text" name="phone" id="pnone">
-        <label for="contact-preference">Contact preference (email or phone?)</label>
-        <input type="text" name="contact_preference" id="contact-preference">
         <label for="more-info">Additional information</label>
-        <input type="text" name="more_info" id="info">
+        <input type="text" name="more_info" id="info" class="form-info-input">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
     </div>
     <div>
         <p>We'll get right back to you with all the information you need to start swimming with Chrissy!</p>

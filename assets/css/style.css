@@ -155,6 +155,10 @@ position: relative;
     padding-right: 20px;
 }
 
+.form-info-input {
+    width: 66%;
+    min-height: 60px;
+}
 /* .table {
     display: flex;
     justify-content: center;
