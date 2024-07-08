@@ -127,6 +127,9 @@ position: relative;
     align-content: center;
     justify-content: space-around;
 }
+.hero-img {
+    width: 66%;
+}
 
 .hero-text {
     text-align: center;
@@ -157,8 +160,9 @@ position: relative;
 
 .form-info-input {
     width: 66%;
-    min-height: 60px;
 }
+
+/*   */
 /* .table {
     display: flex;
     justify-content: center;
