@@ -23,90 +23,151 @@
 
 <body>
     <!-- Body flex container -->
-     <section class="body">
+    <div class="body">
 
-    <!-- Header -->
-    <header>
-        <div id="header">
-            <div id="logo">
-                <a href="index.html">
-                    <h1>Swim with Chrissy</h1>
-                </a>
+        <!-- Header section -->
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <a href="index.html">
+                        <h1>Swim with Chrissy</h1>
+                    </a>
+                </div>
+                <div id="nav">
+                    <nav>
+                        <ul id="nav2">
+                            <li>
+                                <a href="index.html" class="nav active">Home</a>
+                            </li>
+                            <li>
+                                <a href="classes.html" class="nav">Classes</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div id="nav">
-                <nav>
-                    <ul id="nav2">
-                        <li>
-                            <a href="index.html" class="nav active">Home</a>
+        </header>
+
+        <main>
+            <!-- Headline and tag section -->
+            <section id="headings-section">
+                <div id="headlines">
+                    <h2>Private swim lessons</h2>
+                    <h3>Accommodating special needs and special requests</h3>
+                </div>
+            </section>
+
+            <!-- Hero section -->
+            <section id="hero">
+                <div id="container-hero-section">
+                    <div class="hero-img">
+                        <img src="../assets/images/boy-with-goggles.jpg" alt="small boy wearing swim goggles in a pool"
+                            width="100%" height="100%">
+                    </div>
+            </section>
+            <div class="hero-text">
+                <h3>Individual, semi-private, and small-group lessons. Beginner, intermediate and advanced. Ages 1 to 99
+                </h3>
+            </div>
+
+            <section id="lessons">
+                <h2><a href="#">Classes</a></h2>
+                <p>Because we're all special: We offer a safe space for people from all walks of life to enjoy the
+                    wonderful world of aquatics.</p>
+                <p>Our lessons are for people of any age or ability. We set up each lesson in consultation with you and
+                    adapt the conditions to meet your needs.</p>
+                <p>Contact us directly or, better yet, use our <span><a href="contact.html">contact form</a></span>
+                    to tell us a little about your needs.</p>
+
+                <h4>A few of the accommodations we offer:</h4>
+                    <ul id="accommodations">
+                        <li>Quiet hour: for students who need calm and quiet in order to participate</li>
+                        <li>Total privacy: for people who want to stay covered up (burkinis welcome) or out of the
+                            public eye</li>
+                        <li>Bring your own teacher or aide: for students who may benefit (special pricing available)
                         </li>
-                        <li>
-                            <a href="classes.html" class="nav">Classes</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="nav">Contact</a>
-                        </li>
+                        <li>Discounts for siblings</li>
+                        <li>Discounts for low-income families</li>
+                        <li>Assisted pool entry and exit</li>
+                        <li>Warm water temperature and a high pool cover for chilly days</li>
                     </ul>
-                </nav>
-            </div>
+
+                <table class="times" style="width:66%">
+                    <caption>Our regular hours of operation</caption>
+                    <tr>
+                        <th> </th>
+                        <th>A.M.</th>
+                        <th>P.M.</th>
+                    </tr>
+                    <tr>
+                        <td>Mon - Fri</td>
+                        <td>9:00 - 12:30</td>
+                        <td>2:30 - 7:00</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9:00 - 12:00</td>
+                        <td>2:00 - 7:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>10:00 - 12:00</td>
+                        <td>1:00 - 7:00</td>
+                    </tr>
+                </table>
+
+            </section>
+
+    <!-- Contact Section -->
+        <section id="contact">
+            <h2><a href="#">Contact</a></h2>
+        <div id="contact-text"></div>
+        <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls and
+            email messages within 24 hours. You'll find our <a href="#">contact information</a>at the bottom of the
+            page. But first, to better serve you, we'd love to know a little bit about you. Feel free to provide the
+            information
+            below.</p>
         </div>
-    </header>
+        <div id="contact-form">
+            <label for="Name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Telephone number</label>
+            <input type="text" name="phone" id="pnone">
+            <label for="contact-preference">Contact preference (email or phone?)</label>
+            <input type="text" name="contact_preference" id="contact-preference">
+            <label for="more-info">Additional information</label>
+            <input type="text" name="more_info" id="info">
+        </div>
+        <div>
+            <p>We'll get right back to you with all the information you need to start swimming with Chrissy!</p>
+        </div>
+    </section>
 
-    <!-- Main -->
-    <main>
-        <section id="headings-section">
-            <div id="headlines">
-                <h1>Private swim lessons</h1>
-                <h2>Accommodating special needs and special requests</h2>
-            </div>
-        </section>
-        <section id="hero">
-            <div id="container-hero-section">
-                <div class="hero-img">
-                    <img src="../assets/images/boy-with-goggles.jpg" alt="small boy wearing swim goggles in a pool"
-                        width="400px" height="400px">
-                </div>
-                <div class="hero-text">
-                    <h3>Individual, semi-private, and small-group lessons</h3>
-                    <h3>Beginner, intermediate and advanced</h3>
-                    <h3>Ages 1 to 99</h3>
-                </div>
-            </div>
-        </section>
-
-        <section id="special-needs">
-            
-            <div class="call-to-action">
-                <p>Because we're all special.</p>
-                <p>We offer a safe space for people from all walks of life to enjoy the wonderful world of aquatics.</p>
-                <p>Contact us directly or, better yet, use our <span><a href="contact.html">contact form</a></span> to tell us a little about your needs.</p>
-            </div>
-
-        </section>
     </main>
 
     <footer>
         <div id="footer">
-            <div class="footer-content">
-                <div>
-                    La Jolla, California
-                </div>
-                <div>
-                    (858) 555-5555
-                </div>
-                <div>
-                    email: carterchristinee@gmail.com
-                </div>
-                <div>
-                    <a href="https://facebook.com" target="_blank" aria-label="Visit us on Facebook"><i
-                            class="fa-brands fa-facebook"></i></a>
-                </div>
-                <div>
-                    <a href="https://facebook.com" target="_blank" aria-label="Visit us on Instagram"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
+            <div id="footer-content"></div>
+            <span>La Jolla, California</span>
+            <br>
+            <span>(858) 555-5555</span>
+            <br>
+            <span>email: carterchristinee@gmail.com</span>
+            <br>
+            <span class="socmedicon" class="socmedicon"><a href="https://facebook.com" target="_blank"
+                    aria-label="Visit us on Facebook"><i class="fa-brands fa-facebook"></i></a></span>
+            <span class="socmedicon"><a href="https://facebook.com" target="_blank"
+                    aria-label="Visit us on Instagram"><i class="fa-brands fa-instagram"></i></a></span>
+        </div>
         </div>
     </footer>
-</section>
+    </div>
+    </div>
 </body>
+
 </html>

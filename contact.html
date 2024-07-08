@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,74 +20,56 @@
 <body>
 
     <!-- Body flex container -->
-    <section class="body">
-    <header>
-        <div id="header">
-            <div id="logo">
-                <a href="index.html">
-                    <h1>Swim with Chrissy</h1>
-                </a>
-            </div>
-            <div id="nav">
-                <nav>
-                    <ul id="nav2">
-                        <li>
-                            <a href="index.html" class="nav">Home</a>
-                        </li>
-                        <li>
-                            <a href="classes.html" class="nav">Classes</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="nav active">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <div id="contact-main"></div>
-            <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls and email messages within 24 hours.</p>
-            <p>To better serve you, we'd love to know a little bit about you. Feel free to provide the information below.</p>
-            <label for="Name">Name</label>
-            <input type="text" name="name" id="name">
-            <label for="email">Email address</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Telephone number</label>
-            <input type="text" name="phone" id="pnone">
-            <label for="contact-preference">Contact preference (email or phone?)</label>
-            <input type="text" name="contact_preference" id="contact-preference">
-            <label for="more-info">Additional information</label>
-            <input type="text" name="more_info" id="info">
-        </div>
-    </main>
-
-    <footer>
-        <div id="footer">
-            <div class="footer-content">
-                <div>
-                    La Jolla, California
+    <div class="body">
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <a href="index.html">
+                        <h1>Swim with Chrissy</h1>
+                    </a>
                 </div>
-                <div>
-                    (858) 555-5555
-                </div>
-                <div>
-                    email: carterchristinee@gmail.com
-                </div>
-                <div>
-                    <a href="https://facebook.com" target="_blank" aria-label="Visit us on Facebook"><i
-                            class="fa-brands fa-facebook"></i></a>
-                </div>
-                <div>
-                    <a href="https://facebook.com" target="_blank" aria-label="Visit us on Instagram"><i
-                            class="fa-brands fa-instagram"></i></a>
+                <div id="nav">
+                    <nav>
+                        <ul id="nav2">
+                            <li>
+                                <a href="index.html" class="nav">Home</a>
+                            </li>
+                            <li>
+                                <a href="classes.html" class="nav">Classes</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav active">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div>
+        </header>
 
-    </footer>
+        <section id="contact">
+            <div id="contact-text"></div>
+                <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls and
+                email messages within 24 hours. You'll find our <a href="#">contact information</a>at the bottom of the page.</p>
+                <p>But first, to better serve you, we'd love to know a little bit about you. Feel free to provide the information
+                below.</p>
+            </div>
+            <div id="contact-form">
+              <label for="Name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email">
+                <label for="phone">Telephone number</label>
+                <input type="text" name="phone" id="pnone">
+                <label for="contact-preference">Contact preference (email or phone?)</label>
+                <input type="text" name="contact_preference" id="contact-preference">
+                <label for="more-info">Additional information</label>
+                <input type="text" name="more_info" id="info">
+            </div>
+            <div>
+                <p>We'll get right back to you with all the information you need to start swimming with Chrissy!</p>
+            </div>
+        </section>
 
-</section>
-</body>
-</html>
+        </main>
+
+       

@@ -5,9 +5,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: "ABeeZee", sans-serif;
+}
 
 h1,
 h2 {
@@ -18,14 +21,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
-body {
-    font-family: "ABeeZee", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
-
 /* Header */
 #header {
     background-color: #ffffff;
@@ -35,8 +30,10 @@ body {
     z-index: 99;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     max-height: 79px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
 }
 
 #header div {
@@ -45,8 +42,6 @@ body {
 
 #logo {
     color: inherit;
-    align-self: flex-start;
-    padding-left: 2px;
 }
 
 #logo h1 {
@@ -59,7 +54,13 @@ body {
     text-decoration: none;
 }
 
+#nav a {
+    text-decoration: none;
+}
 
+#nav a:hover {
+    border-bottom: 1px solid #191970;
+}
 #nav2 {
     text-decoration: none;
     padding-right: 5px;
@@ -82,24 +83,14 @@ nav ul {
     text-decoration: none;
 }
 
-#nav a {
-    text-decoration: none;
-}
-
-#nav a:hover {
-    border-bottom: 1px solid #191970;
-}
-
 /* To show where user hovers over a nav link */
 .active:hover {
     border-bottom: 1px solid;
     }
 
-
-
 /* Main */
 
-/* Headings section */
+/* Heading and tagline */
 
 #headings-section {
 width: 100%;
@@ -111,14 +102,17 @@ position: relative;
     border: 1px solid;
     text-align: center;
     margin-top: 79px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-#headlines h1, h2 {
-    letter-spacing: 1px;
-    padding-top: 15px;
-}
 #headlines h2 {
-    padding-bottom: 15px;
+    letter-spacing: 1px;
+    
+}
+
+#headlines h3 {rem
+    letter-spacing: 1px;
 }
 
 /* Hero Section */
@@ -157,21 +151,23 @@ position: relative;
 }
 
 /* Footer */
-footer {
+#footer {
     background-color: rgb(152, 223, 245);
-    position: fixed;
-    width: 100%;
-    height: auto;
+    width: 50%%;
+    /* height: auto; */
     bottom: 0;
-    padding: 5px;
+    padding: 20px;
     margin-top: 15px;
+    justify-content: center space-around;
+    width: 100vp;
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#footer-content {
+    text-align: center;
+}
+
+.socmedicon {
+    padding: 1.5rem;
 }
 
 /* Classes Page */
@@ -184,18 +180,15 @@ footer {
 }
 
 #classes-main-div {
-    background-color: rgb(152, 223, 245);
+    background-color: rgba(152, 223, 245, 0.6);
     width: 100%;
     flex: column;
-    min-height: 900px;
-    margin-top: 79px;
-    padding: 2px;
+    padding: 20px;
     font-family: Montserrat, sans-serif;
 }
 
 #accommodations {
     list-style: circle;
-    padding: 5px;
 }
 
 .times th, td {
@@ -205,12 +198,6 @@ footer {
 #hours-head {
     padding-bottom: 2px;
     text-align: left;
-}
-
-/*Contact page */
-.contact-main {
-    background-color: aquamarine;
-    width: 100%;
 }
 
 
@@ -226,23 +213,11 @@ footer {
    }
 
    .hero-text {
-    font-size:smaller;
-    /* line-height: 15rem; */
-   }
+    font-size: 12px;
+    
 
-   .call-to-action h4, p {
-    line-height: 15px;
-    font-size: x-small;
-   }
 
    /* Media query for laptops */
 @media screen and (max-width: 1200px) {
-     #container-hero-section {
-    height: 500px;
-   }
 
-   .hero-text {
-    font-size:smaller;
-    line-height: 25px;
-   }
 }
