@@ -207,7 +207,11 @@ footer {
     text-align: left;
 }
 
-
+/*Contact page */
+.contact-main {
+    background-color: aquamarine;
+    width: 100%;
+}
 
 
 /* Media query for mobile phones */
@@ -223,7 +227,7 @@ footer {
 
    .hero-text {
     font-size:smaller;
-    line height: 15rem;
+    /* line-height: 15rem; */
    }
 
    .call-to-action h4, p {
