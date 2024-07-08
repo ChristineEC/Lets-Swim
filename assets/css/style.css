@@ -70,7 +70,7 @@ h2 {
     }
 
 nav ul {
-    padding-left: 3px;
+    padding-left: 5px;
     list-style-type: none;
     letter-spacing: 2px;
     text-decoration: none;
@@ -146,7 +146,7 @@ position: relative;
     padding-right: 20px;
 }
 
-.accommodations {
+.accom div {
     padding-left: 30px;
 }
     
@@ -155,12 +155,42 @@ position: relative;
     padding-right: 20px;
 }
 
-.table {
+/* .table {
     display: flex;
     justify-content: center;
 }
+ */
 
+/* Classes Page */
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%
+}
+
+#classes-main-div {
+    background-color: rgba(152, 223, 245, 0.6);
+    width: 100%;
+    flex: column;
+    padding: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.accomm-ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.times th, td {
+    text-align: left;
+}
+
+#hours-head {
+    padding-bottom: 2px;
+    text-align: left;
+}
 
 /* Footer */
 #footer {
@@ -180,36 +210,6 @@ position: relative;
 
 .socmedicon {
     padding: 1.5rem;
-}
-
-/* Classes Page */
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%
-}
-
-#classes-main-div {
-    background-color: rgba(152, 223, 245, 0.6);
-    width: 100%;
-    flex: column;
-    padding: 20px;
-    font-family: Montserrat, sans-serif;
-}
-
-.accom-ul {
-    list-style: disc;
-}
-
-.times th, td {
-    text-align: left;
-}
-
-#hours-head {
-    padding-bottom: 2px;
-    text-align: left;
 }
 
 
