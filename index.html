@@ -82,7 +82,7 @@
                     wonderful world of aquatics.</p>
                 <p>Our lessons are for people of any age or ability. We set up each lesson in consultation with you and
                     adapt the conditions to meet your needs.</p>
-                <p>Contact us directly or, better yet, use our <span><a href"#contact">contact form</a></span>
+                <p>Contact us directly or, better yet, use our <span><a href="#contact">contact form</a></span>
                     to tell us a little about your needs.</p>
             </section>
 
@@ -107,27 +107,40 @@
             <section id="contact" class="section">
                 <h3>Contact</h3>
                 <div id="contact-text">
-                    <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls and
-                    email messages within 24 hours. You'll find our contact information below. But first, to better serve you, we'd love to know a little bit about you. Feel free to provide
-                    the
-                    information
-                    below.</p>
+                    <p>We're often in the pool and unable to answer telephone calls immediately, but we return all calls
+                        and email messages within 24 hours. You'll find our contact information below. But first, to
+                        better
+                        serve you, we'd love to know a little bit about you. Feel free to provide
+                        the information below.</p>
                 </div>
-    <div id="contact-form">
-        <label for="Name">Name</label>
-        <input type="text" name="name" id="name" required>
-        <label for="email">Email address</label>
-        <input type="email" name="email" id="email" required>
-        <label for="phone">Telephone number</label>
-        <input type="text" name="phone" id="pnone">
-        <label for="more-info">Additional information</label>
-        <input type="text" name="more_info" id="info" class="form-info-input">
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </div>
-    <div>
-        <p>We'll get right back to you with all the information you need to start swimming with us!</p>
-    </div>
+                <div id="contact-form">
+                    <form method="post" action="https://formdump.codeinstitute.net/">
+                        <div id="your-info">
+                            <div class="info-entry-line">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+                            <div class="info-entry-line">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div class="info-entry-line additional-info">
+                                <label for="more-info">Additional information</label><br>
+                                <input type="text" name="more_info" id="more-info" class="form-info-input">
+                            </div>
+                            <div class="info-entry-line button">
+                                <div id="submit">
+                                    <button type="submit">Submit</button>
+                                </div>
+                                <div id="reset">
+                                    <button type="reset">Reset</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+    <p>We'll get right back to you with all the information you need to start swimming with us!</p>
     </section>
 
     </main>
@@ -145,7 +158,6 @@
                     aria-label="Visit us on Facebook"><i class="fa-brands fa-facebook"></i></a></span>
             <span class="socmedicon"><a href="https://facebook.com" target="_blank"
                     aria-label="Visit us on Instagram"><i class="fa-brands fa-instagram"></i></a></span>
-        </div>
         </div>
     </footer>
     </div>

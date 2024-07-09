@@ -29,7 +29,7 @@ h2 {
     top: 0;
     z-index: 99;
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     max-height: 79px;
     padding-left: 20px;
     padding-right: 20px;
@@ -158,9 +158,41 @@ position: relative;
     padding-right: 20px;
 }
 
-.form-info-input {
-    width: 66%;
+#contact-form {
+    width: 100%;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
 }
+
+#your-info {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; */
+    /* justify-content: space-around; */
+}
+
+.info-entry-line {
+    padding: 10px;
+}
+
+.form-info-input {
+    width: 100%;
+    min-height: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
 
 /*   */
 /* .table {
