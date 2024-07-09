@@ -162,6 +162,14 @@ position: relative;
     padding-bottom: 20px;
 }
 
+.section h4 {
+    padding-bottom: 20px;
+}
+
+.hours h4 {
+    padding-top: 20px;
+}
+
 .accom div {
     padding-left: 30px;
 }
@@ -202,13 +210,6 @@ button {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
-
-.table {
-    display: flex;
-    width: 66%
-    justify-content: center;
-}
-
 
 /* Classes Page */
 
