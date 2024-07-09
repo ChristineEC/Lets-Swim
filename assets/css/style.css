@@ -136,11 +136,13 @@ position: relative;
     font-size: 125%;
     letter-spacing: 2px;
     align-content: center;
+    background-color: rgb(152, 223, 245);
 }
  
 .hero-text h3 {
     background-color: rgba(152, 223, 245, 0.6);
-    padding: 1px 2px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Lessons and Contact */
@@ -149,14 +151,21 @@ position: relative;
     padding-right: 20px;
 }
 
-.accom div {
-    padding-left: 30px;
-}
-    
 .section {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.section h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accom div {
+    padding-left: 30px;
+}
+    
+
 
 #contact-form {
     width: 100%;
@@ -184,11 +193,15 @@ position: relative;
 .button {
     display: flex;
     justify-content: space-around;
+    padding: -20px;
 }
 
 button {
     padding: 5px;
     font-family: "Montserrat", sans-serif;
+    /* Box Shadow from getcssscan.com */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
 }
 
 
@@ -235,14 +248,11 @@ button {
 /* Footer */
 #footer {
     background-color: rgb(152, 223, 245);
-    width: 50%%;
-    /* height: auto; */
+    width: 100%;
     bottom: 0;
     padding: 20px;
     margin-top: 15px;
-    justify-content: center space-around;
-    width: 100vp;
-}
+    justify-content: center;
 
 #footer-content {
     text-align: center;
