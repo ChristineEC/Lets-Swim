@@ -169,14 +169,35 @@ position: relative;
     padding-bottom: 20px;
 }
 
+.accom div {
+    padding-left: 30px;
+}
+
+.accomm-ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.accomm-ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .hours h4 {
     padding-top: 20px;
 }
 
-.accom div {
-    padding-left: 30px;
+.times th, td {
+    text-align: left;
 }
-    
+
+#hours-head {
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+/* Contact Form */ 
+
 #contact-form {
     width: 100%;
     padding: 20px;
@@ -216,20 +237,7 @@ button {
 
 /* Classes Page */
 
-.accomm-ul {
-    list-style: disc;
-    padding-left: 20px;
-}
 
-
-.times th, td {
-    text-align: left;
-}
-
-#hours-head {
-    padding-bottom: 2px;
-    text-align: left;
-}
 
 /* Footer */
 #footer {
