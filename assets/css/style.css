@@ -54,10 +54,8 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
-    /* display: none; */
+    display: none;
     top: 100%;
-    padding-right: 1rem;
 }
 
 nav a {
@@ -69,7 +67,7 @@ nav a:hover {
 }
 
 nav ul {
-    padding-left: 1rem;
+    padding: 0 1rem;
     list-style-type: none;
     letter-spacing: 2px;
     text-decoration: none;
@@ -95,6 +93,7 @@ nav ul {
 /* Make menu bars larger */
 .nav-toggle-label {
     font-size: 2rem;
+    padding: 0 1rem;
 }
 
 /* To show where user hovers over a nav link */
@@ -260,7 +259,6 @@ button {
     text-align: center;
 }
 
-
 .socmedicon {
     padding: 20px;
 }
@@ -268,18 +266,43 @@ button {
 
 /* Media query for mobile phones */
 @media screen and (max-width: 480px) {
-    #nav2 {
+
+    #navul {
         font-size: 25%;
         line-height: 25px;
+        display: flex;
     }
-}
-   #logo {
+
+   .logo {
     line-height: 25px;
    }
 
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+}
+
    .hero-text {
     font-size: 12px;
+}  
     
+}
+
+/* Media query for tablets and larger */
+@media and screen (max-width: 760px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+
+}
 
    /* Media query for laptops */
 @media screen and (max-width: 1200px) {
