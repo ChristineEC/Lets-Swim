@@ -25,7 +25,7 @@ p {
 }
 
 /* Header */
-#header {
+header {
     background-color: #ffffff;
     width: 100%;
     position: fixed;
@@ -33,74 +33,70 @@ p {
     z-index: 99;
     display: flex;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     justify-content: space-between;
 }
 
-/* #header div {
-    max-height: 79px;
-} */
+header h1 {
+    font-family: "ABeeZee", sans-serif;
+    text-transform: none;
+    line-height: 75px;
+    padding: 0.5rem
+}
 
-/* Taken from Love Running unit */
-#logo {
+header a {
+    text-decoration: none;
+    /* Taken from Love Running unit */
     color: inherit;
 }
 
-#logo h1 {
-    font-family: "ABeeZee", sans-serif;
-    text-transform: none;
-    /* line-height: 75px; */
-}
-
-#header a {
-    text-decoration: none;
-}
-
-/* Shrink menu for mobile, much taken from Love Running */
+/* Shrink menu to icon for mobile, much taken from Love Running */
 nav {
     position: absolute;
     width: 100%;
     left: 0;
-    padding: 0 1 rem;
-/* Box Shadow from getcssscan.com */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0 1rem;
     /* display: none; */
-    /* top: 100%; */
+    top: 100%;
+    padding-right: 1rem;
 }
 
-#nav a {
+nav a {
     text-decoration: none;
 }
 
-#nav a:hover {
+nav a:hover {
     border-bottom: 1px solid #191970;
 }
-#nav2 {
-    text-decoration: none;
-    padding-right: 5px;
-    flex-wrap: wrap;
-    color: inherit;
-    /* line-height: 75px; */
-    }
 
 nav ul {
-    padding-left: 5px;
+    padding-left: 1rem;
     list-style-type: none;
     letter-spacing: 2px;
     text-decoration: none;
     list-style: none;
+    display: none;
+    color: inherit;
 }
 
-#nav2 li {
-    display: inline;
+#navul li {
+    /* display: inline; */
     padding: 2px;
     text-decoration: none;
 }
 
 /* Nav toggle */
 #nav-toggle:checked ~ nav {
-    dispaly: block;
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+/* Make menu bars larger */
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* To show where user hovers over a nav link */
