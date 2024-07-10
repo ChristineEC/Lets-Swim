@@ -177,9 +177,16 @@ nav ul {
 }
 
 .section {
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    background-image: url("../assets/images/pool-water-light.jpg");
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.color-div {
+    background-color:rgb(152, 223, 245);
+    text-align: center;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
 }
 
 .section h3 {
@@ -187,9 +194,41 @@ nav ul {
     padding-bottom: 20px;
 }
 
-.section h4 {
-    padding-bottom: 20px;
+section h4 {
+    padding: 10px;
+    text-align: center;
 }
+
+/* table */
+/* from mdn web docs */
+
+.table {
+    padding-top: 20px;
+}
+.table p {
+    padding-top: 20px;
+}
+
+caption {
+    padding-bottom: 10px;
+}
+
+table {
+    table-layout: fixed;
+    width: 300px;
+    border: 1px solid #3a3a3a; 
+}
+
+td {
+    text-align: center;
+    border: 1px solid #3a3a3a;
+    padding: 0.5rem;
+}
+
+tr (
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+)
 
 .accom div {
     padding-left: 30px;
@@ -205,18 +244,8 @@ nav ul {
     padding-bottom: 10px;
 }
 
-.hours h4 {
-    padding-top: 20px;
-}
 
-.times th, td {
-    text-align: left;
-}
 
-#hours-head {
-    padding-bottom: 2px;
-    text-align: left;
-}
 
 /* Contact Form */ 
 
@@ -225,7 +254,6 @@ nav ul {
     padding: 20px;
     font-family: "Montserrat", sans-serif;
 }
-
 #your-info {
     /* display: flex;
     flex-direction: row;
