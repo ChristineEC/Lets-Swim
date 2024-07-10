@@ -39,7 +39,6 @@ header {
 header h1 {
     font-family: "ABeeZee", sans-serif;
     text-transform: none;
-    line-height: 75px;
     padding: 0.5rem
 }
 
@@ -276,14 +275,6 @@ button {
    .logo {
     line-height: 25px;
    }
-
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-}
 
    .hero-text {
     font-size: 12px;
