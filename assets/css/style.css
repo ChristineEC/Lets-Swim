@@ -94,7 +94,7 @@ nav ul {
 }
 
 /* Make menu bars larger */
-.nav-toggle-label {
+#nav-toggle-label {
     font-size: 2rem;
     padding: 0 1rem;
 }
