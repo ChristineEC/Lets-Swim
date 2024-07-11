@@ -10,6 +10,7 @@
 
 body {
     font-family: "ABeeZee", sans-serif;
+    color: rgb(29, 10, 138)
 }
 
 h1,
@@ -35,9 +36,10 @@ header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    box-shadow: 0 2px 2px rgb(176, 226, 241);
 }
 
-header h1 {
+#logo {
     font-family: "ABeeZee", sans-serif;
     text-transform: none;
     padding: 0.5rem
@@ -54,8 +56,7 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    display: flex;
-    flex-direction: row;
+    display: none;
     top: 100%;
 }
 
@@ -72,13 +73,14 @@ nav ul {
     list-style-type: none;
     letter-spacing: 2px;
     text-decoration: none;
-    /* list-style: none; */
-    color: inherit;
+    list-style-type: none;
     display: flex;
+    flex-direction: row;
+
 }
 
 #navul li {
-    padding: 2px;
+    padding: 4px;
     text-decoration: none;
 }
 
@@ -125,13 +127,13 @@ nav ul {
 /* Hero Section */
 
 #container-hero-section {
-    background-image: url("../assets/images/pool-water-light.jpg") width: 100%;
+    background-image: url("../images/pool-water-light.jpg"); width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
-    margin-top: 97px;
+    margin-top: 150px;
     padding-bottom: 20px;
 }
 
@@ -250,10 +252,10 @@ td {
     padding: 0.5rem;
 }
 
-tr (
+tr {
     padding-top: 1rem;
     padding-bottom: 1rem;
-)
+}
 
 .accom div {
     padding-left: 30px;
@@ -328,10 +330,10 @@ button {
             margin-top: 94px;
         }
 
-        header a { 
-            font-size: 20px;
+        /* #logo { 
+            font-size: 15px;
             wrap: no-wrap;
-        }
+        } */
 
         .hero-img {
             /* align-self: center;
@@ -360,36 +362,22 @@ button {
     }
 
     /* Media query for tablets and larger */
-    @media and screen(min-width: 760px) {
-
+    @media screen and (min-width: 760px) {
         nav {
             display: block;
             position: relative;
-            box-shadow: none;
+            /* box-shadow: none; */
             width: fit-content;
             padding-right: 1rem;
             flex-direction: row;
         }
-
         #navul {
             display: flex;
         }
-
         #navul>li {
             padding: 1rem;
         }
-
         .nav-toggle-label {
             display: none;
-        }
-
-    }
-
-    /* Media query for laptops */
-    @media screen and (max-width: 992px) {
-
-        header h1,
-        #navul {
-
         }
     }
