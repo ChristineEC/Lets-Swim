@@ -58,5 +58,5 @@ Although I remembered the structure of the code, I did need to peak back at Code
 
 ###Credits
 
-I looked up the html codes for any special punctuation, such as the en-dash on [HubSpot (https://blog.hubspot.com/website/html-symbols#HTML-Symbols-Lists)].
+To make the user's additional comments in the form wrap inside the text box, I use a <textarea> element instead of <input type="text>. I learned this from [W3Schools.com](https://www.w3schools.com/tags/tag_textarea.asp#:~:text=The%20element%20is%20often,attributes%20(or%20with%20CSS).
 

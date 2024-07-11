@@ -14,12 +14,13 @@ body {
 
 h1,
 h2 {
-    font-family: "Montserrat", sans-serif; 
+    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
     text-transform: uppercase;
 }
+
 p {
     padding-bottom: 1rem;
 }
@@ -53,7 +54,8 @@ nav {
     position: absolute;
     width: 100%;
     left: 0;
-    display: none;
+    display: flex;
+    flex-direction: row;
     top: 100%;
 }
 
@@ -72,6 +74,7 @@ nav ul {
     text-decoration: none;
     /* list-style: none; */
     color: inherit;
+    display: flex;
 }
 
 #navul li {
@@ -80,13 +83,14 @@ nav ul {
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
 #nav-toggle {
     display: none;
 }
+
 /* Make menu bars larger */
 .nav-toggle-label {
     font-size: 2rem;
@@ -96,7 +100,7 @@ nav ul {
 /* To show where user hovers over a nav link */
 .active:hover {
     border-bottom: 1px solid;
-    }
+}
 
 /* Main */
 
@@ -121,14 +125,14 @@ nav ul {
 /* Hero Section */
 
 #container-hero-section {
-    background-image: url("../assets/images/pool-water-light.jpg")
-    width: 100%;
+    background-image: url("../assets/images/pool-water-light.jpg") width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
     margin-top: 97px;
+    padding-bottom: 20px;
 }
 
 .hero-img {
@@ -136,14 +140,15 @@ nav ul {
     height: 300px;
     border-radius: 50%;
     overflow: hidden;
-    }
+}
 
 #headline-and-tag {
     text-align: center;
     font-size: 150%;
     letter-spacing: 2px;
     align-content: center;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* .hero-text {
@@ -163,17 +168,16 @@ nav ul {
 /* Lessons and Contact */
 
 .after-hero-sections {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 .section-text {
-        
-        /* background-color: rgb(152, 223, 245); */
-        border: 1px solid;
-        text-align: center;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
+
+    /* background-color: rgb(152, 223, 245); */
+    border: 1px solid;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .section {
@@ -182,21 +186,31 @@ nav ul {
 }
 
 .color-div {
-    background-color:rgb(152, 223, 245);
+    background-color: rgb(152, 223, 245);
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
 }
 
+.firstp {
+    padding-top: 20px;
+}
+
 .section h3 {
     padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#special {
+    font-size: 150%;
+    text-align: center;
     padding-bottom: 20px;
 }
 
 section h4 {
     padding: 10px;
-    text-align: center;
 }
 
 /* table */
@@ -204,9 +218,20 @@ section h4 {
 
 .table {
     padding-top: 20px;
+    margin: auto;
 }
+
 .table p {
-    padding-top: 20px;
+    text-align: center;
+}
+
+/* Table centering from https://www.geeksforgeeks.org/how-to-center-a-table-with-css/ */
+table {
+    margin: auto;
+}
+
+.table p {
+    padding-top: 10px;
 }
 
 caption {
@@ -247,19 +272,12 @@ tr (
 
 
 
-/* Contact Form */ 
+/* Contact Form */
 
 #contact-form {
     width: 100%;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
-}
-#your-info {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%; */
-    /* justify-content: space-around; */
 }
 
 .info-entry-line {
@@ -281,7 +299,7 @@ button {
     font-family: "Montserrat", sans-serif;
     /* Box Shadow from getcssscan.com */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+
 }
 
 /* Footer */
@@ -294,71 +312,84 @@ button {
     display: flex;
     justify-content: center;
 
-#footer-content {
-    text-align: center;
-}
+    /* #footer-content {
+        text-align: center;
+    } */
 
-.socmedicon {
-    padding: 20px;
-}
+    /* .socmedicon {
+        padding: 20px;
+    } */
 
 
-/* Media query for mobile phones */
-@media screen and (max-width: 480px) {
+    /* Media query for mobile phones */
+    @media screen and (max-width: 480px) {
 
-    #container-hero-section {
-        margin-top: 94px;
-    }
-    .hero-img {
-        /* align-self: center;
+        #container-hero-section {
+            margin-top: 94px;
+        }
+
+        header a { 
+            font-size: 20px;
+            wrap: no-wrap;
+        }
+
+        .hero-img {
+            /* align-self: center;
         justify-content: center; */
-    }
-    #headline-and-tag {
-    font-size: 25%;;
-    }
+        }
 
+        #headline-and-tag {
+            font-size: 25%;
+        }
 
-    #navul {
-        font-size: 25%;
-        line-height: 25px;
-    }
-    .logo {
-    line-height: 25px;
-   }
+        /* #navul {
+            font-size: 20%;
+            line-height: 25px;
+        } */
 
-   .hero-text {
-    font-size: 12px;
-    }  
-}
+        .logo {
+            line-height: 25px;
+        }
 
-/* Media query for tablets and larger */
-@media and screen(min-width:760px) {
-
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        .hero-text {
+            font-size: 12px;
+        }
+        main {
+            margin-top: 97px;
+        }
     }
 
-    #navul {
-        display: flex;
+    /* Media query for tablets and larger */
+    @media and screen(min-width: 760px) {
+
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+            flex-direction: row;
+        }
+
+        #navul {
+            display: flex;
+        }
+
+        #navul>li {
+            padding: 1rem;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
     }
 
-    #navul > li {
-        padding: 1rem;
+    /* Media query for laptops */
+    @media screen and (max-width: 992px) {
+
+        header h1,
+        #navul {
+
+        }
     }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-}
-
-   /* Media query for laptops */
-@media screen and (max-width: 992px) {
-    header h1, #navul {
-
-    }
-}
