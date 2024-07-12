@@ -10,7 +10,9 @@
 
 body {
     font-family: "ABeeZee", sans-serif;
-    color: rgb(29, 10, 138)
+    color: rgb(29, 10, 138);
+    /* display: flex;
+    flex-direction: column; */
 }
 
 h1,
@@ -27,25 +29,21 @@ p {
 }
 
 /* Header */
-header {
-    background-color: #92e02c;
+header { 
+    background-color:#f4f8fa00
+    color: rgb(42, 7, 245);
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 99;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: space-between;
-}
-
-#navul {
-    display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #navul li {
-    padding: 20px;
+    padding-right: 20px;
 }
 
 #logo {
@@ -65,7 +63,7 @@ nav ul {
     letter-spacing: 1px;
     text-decoration: none;
     list-style-type: none;
-    /* display: flex; */
+    display: flex;
 }
 
 nav a {
@@ -81,19 +79,19 @@ nav a:hover {
 }
 
 #navul li {
-    padding: 2px;
+    padding-left: 3px;
     text-decoration: none;
 }
 
 /* Main */
 
 main {
-    margin-top: 53px;
+    margin-top: 55px;
 }
 
-.section {
+/* .section {
     margin-top: 27px;
-}
+} */
 /* Hero Section */
 
 #container-hero-section {
@@ -282,8 +280,13 @@ button {
 
 @media screen and (max-width: 480px) {
     main {
-        margin-top: 80px;
+        margin-top: 69px;
         }
+    #navul {
+            font-size: 75%;
+        }
+
+
 }
 
     /* Media query for tablets and larger */
