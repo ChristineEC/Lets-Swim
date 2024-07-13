@@ -100,7 +100,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 50px;
     padding-top:20px;
     padding-bottom: 20px;
@@ -221,7 +221,7 @@ tr {
     padding-left: 30px;
 }
 
-.accomm-ul {
+.main-ul {
     list-style: disc;
     padding-left: 20px;
 }
