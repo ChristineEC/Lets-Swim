@@ -16,7 +16,9 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
     font-family: "Montserrat", sans-serif;
 }
 
@@ -128,18 +130,24 @@ main {
     font-family: "Montserrat", sans-serif;
 }
 
-/* Lessons and Contact */
-
-.after-hero-sections {
-    padding: 20px;
+/* Why learn section */
+#whylearn {
+    display: flex;
+    justify-items: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.section-text {
+/* Lessons and Contact */
 
-    /* background-color: rgb(152, 223, 245); */
+.section-text {
     border: 1px solid;
     text-align: center;
     padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.pwithpadding {
     padding-top: 2rem;
 }
 
@@ -160,10 +168,6 @@ main {
     padding: 1rem;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 2px;
-}
-
-.firstp {
-    padding-top: 20px;
 }
 
 .section h3 {
