@@ -96,6 +96,7 @@ main {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 55px;
 }
 
 #main-ul > li {
@@ -218,6 +219,16 @@ section h4 {
 
 #accompara p {
     text-wrap: wrap;
+}
+
+#olderswimmer {
+    order: 0;
+}
+#accoms {
+    order: 1;
+}
+#embarrassed {
+    order: 2;
 }
 
 #contactlink {
