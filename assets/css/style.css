@@ -131,7 +131,6 @@ img {
 }
 
 #headline-and-tag {
-    align: center;
     font-size: 110%;
     letter-spacing: 2px;
     align-content: center;
@@ -191,9 +190,6 @@ section h4 {
     padding: 10px;
 }
 
-
-
-
 /* Accommodations */
 #accomwrapper {
     background-color: rgb(10, 12, 138);
@@ -207,6 +203,7 @@ section h4 {
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 
 #accomcontainer div {
@@ -215,11 +212,12 @@ section h4 {
 
 #accompara {
     order: -1;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 #accompara p {
     text-wrap: wrap;
+    line-height: 2;
 }
 
 #olderswimmer {
@@ -357,10 +355,7 @@ footer p {
 
     /* Media query for tablets and larger */
     @media screen and (min-width: 760px) {
-        /* nav {
-            display: block;
-            position: relative;
-            padding-right: 1rem;
-            flex-direction: row;
-        } */
+
+
+
     }
