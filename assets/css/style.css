@@ -63,7 +63,7 @@ header a {
 
 nav ul {
     padding: 0 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-decoration: none;
     list-style-type: none;
     display: flex;
@@ -74,9 +74,7 @@ nav a {
 }
 
 /* To show where user hovers over a nav link */
-.active:hover {
-    border-bottom: 1px solid;
-}
+
 nav a:hover {
     border-bottom: 1px solid #191970;
 }
@@ -84,6 +82,11 @@ nav a:hover {
 #navul li {
     padding-left: 3px;
     text-decoration: none;
+}
+
+/* From */
+.menuanchor {
+    scroll-margin-top: 55px;
 }
 
 /* Main */
@@ -163,10 +166,6 @@ main {
 
 /* About Us section */
 
-/* .pwithpadding {
-    padding-top: 2rem;
-} */
-
 .section {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -231,18 +230,9 @@ section h4 {
     order: 2;
 }
 
-/* TEMPORARY FIX TO BUG (2 ITEMS) */
-#pwithpadding span {
-    background-color: rgb(152, 223, 245);
-}
-
-#contactlink {
-    text-decoration: none;
-}
-
 
 /* Table */
-/* formatting help from mdn web docs */
+/* Table formatting help from mdn web docs */
 .table {
     padding-top: 20px;
     margin: auto;
@@ -270,17 +260,14 @@ td {
     border: 1px solid rgb(29, 10, 138);
     padding: 0.5rem;
 }
-
 tr {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-
 .main-ul {
     list-style: disc;
     padding-left: 20px;
 }
-
 .main-ul li {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -288,9 +275,10 @@ tr {
 
 /* Contact Section */
 
-/* #bizcontact {
-    justify-self: flex-end;
-} */
+#bizinfo {
+    text-align: center;
+    font-weight: bold;
+}
 
 /* Contact Form */
 
@@ -298,6 +286,8 @@ tr {
     width: 100%;
     padding: 20px;
     font-family: "Montserrat", sans-serif;
+    border: solid 1px rgb(152, 223, 245);
+    margin-bottom: 20px;
 }
 
 .info-entry-line {
@@ -322,16 +312,18 @@ button {
 }
 
 /* Footer */
-#footer {
+footer {
     background-color: rgb(152, 223, 245);
     width: 100%;
     bottom: 0;
     padding: 20px;
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
 }
 
+footer p {
+    text-align: center;
+    font-size: 75%;
+    /* padding-top: 20px; */
+}
     .socmedicon {
         padding: 20px;
     }
@@ -345,9 +337,13 @@ button {
     main {
         margin-top: 69px;
         }
+
     #navul {
             font-size: 75%;
         }
+    .menuanchor {
+        scroll-margin-top: 69px;
+    }
 }
 
     /* Media query for tablets and larger */

@@ -8,16 +8,21 @@ The site is aimed at people with some form of disabilty, such as autism, and peo
 
 The site-owner is a mother-and-daughters team of certified instructors, and the site informs the user that, while the daughters engage in teaching as a side-job to their studies, the mother provides lessons in her free time to people who lack access in some form, including financial barriers. Such lessons are not necessarily paid. That is, discounts and fee waivers are available, since the primary goal is to increase water safety in the community.
 
-Site-users are offered some reasons why a person should learn how to swim, the most prominent (that it is an important survival skill) listed first.
+Site-users are offered some reasons why a person should learn how to swim, the most prominent (that it is an important survival skill) listed first. Some statistics about the high level of drowning among children and among autistic people are included, with links to the respective sources, the CDC and Autism Society Florida. Those links open in new tabs. Aria text is included for greater accessibility and states that the links open in new tabs. 
 
-The list of possible accommodations features prominently on the site, as further encouragement for the reluctant student to seek services.
+A list of possible accommodations features prominently on the site, as further encouragement for the reluctant student to seek services. The user is there encouraged to contact the site-owner to describe or discuss any other accommodations required.
 
 The tone of the website is friendly and welcoming.
 
 ### Features
 
+#### Page
+The title of the webpage is shown on the browser tag. Only HTML and CSS are used. The page is fully responsive, mainly using flex properties and a limited number of media queries in CSS. Sections and proper use of headings in the html file give semantic structure to the website. In the head section are included a description of the site, including the location, and keywords to help browsers direct the intended audience to the site. A CSS wildcard selector is used, and some basic styling added there to override some automatic browser styling.
+
 #### Header
 The header contains an h1 with an anchor element linked to the home page, as well as a nav bar linked to the different sections of this one-page website. Flex properties were used to make the nav bar wrap under the heading for smaller screen sizes. The nav bar is styled to show horizontally at all times,and a hover feature comes into play on larger screens to indicate when the user hovers over the menu item. The pseudoclass a:hover was used to accomplish this and is applied through a media query. 
+
+/* add images here */
 
 Help with flex properties was obtained from [Flexbox Froggy](https://flexboxfroggy.com/).
 
@@ -25,19 +30,38 @@ For a reminder on how to style the nav list items horizontally, I referred to [W
 
 For a reminder of the correct syntax for using the hover pseudoclass, I referred to the Love Running video Navigation Styling 2 as well as [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover). My first solution worked in the browser but failed a validation test, and that is when I consulted MDN.
 
-I resolved an error message concerning the nav elements containing more than one class attribute, with class= used twice, by placing both attributes inside the same set of parentheses.
+I resolved an error message the nav elements containing more than one class attribute, with class= used twice, by placing both attributes inside the same set of parentheses.
+
+### Main section
+
+#### Hero section
+The hero section features an h2-level headling and an h3-level tagline, appearing prominently against a background of pool water and flanked on both sides by images, one of a child wearing goggles in a pool, and one of a woman wearing a burkini. The heading states the primary offering of private swim lessons, and the tagline alerts the reader to the fact that special accommodations are offered. So right away, both the images and the prominent tagline alert the user to the nature of the intended audience people who have special requirements, or not, as the case may be. The images were styled as circles, with a lighter border to make them stand out against the background and make them slightly resemble bubbles. Originally, there were only 2 such images, but that didn't work well on laptop-sized screens, so another image was added, making the section attractive on all screen sizes, again using flex and media queries.
+
+/* include image here */
+
+The hero section is followed by a section called Why Learn to Swim, described above in the general site description. 
+
+#### About Us section
+
+The About Us section has an anchor tag at its h2 header, enabling the navigation link in the header to function, and the section includes a short description of the site owners and further points to the objective of the website, which is to attract students who may otherwise find it difficult to access swimming lessons, by discussing the site-owner's inspiration for offering the swim lessons. 
+In accordance with the site's objective, the most prominent feature of the About Us section is a list of possible accommodations and an invitation, or a call to action, to the user to contact the site owner through the contact form.
+The regular business hours appear in a simple table at the bottom of this section.
+
+#### Contact section
+Like the About Us section, the Contact section has an anchor tag at its h2 header, enabling the navigation link in the header to function. It includes the location, phone number and email to the business, followed by an invitation to the user to fill out the contact details in the included form. The form consists of three labeled elements, the first a text input box where the user is to enter their name. The second is an email input that accepts only email addresses. That is, it warns the user if an incorrectly formatted text is entered. The third input field is for user comments or questions. It comprised a text-entry field with an additional inside-the-box label stating that the maximum number of characters allowed is 500. The user's text input wraps inside the box.
+/* include here source of information for the last feature */
+
+#### Footer
+The footer section contains text of the site owner's location and contact details, followed by two icons that represent links to social media. The links open in separate tabs. Aria-labels are included for screen readers, inviting the user to visit the organization on several social media sites and informing them that the link will open in a new tab.
 
 
 
 
 
-###Main Section - Homepage
 
-The main section of the home page has a simple, bold and easy to read headline and tag, announcing the nature of services and intended audience. This is followed by a section with a water background and collage of photos depicting swimmers of all ages and cultural backgrounds, as well as images encouraging acceptance of differences, including one for autism. Further text details the business's broader objective of inclusion and inviting the user to visit the activities page for more details about the business's offerings.
+/ * Testing and Validation */
 
-Originally, the headline and tag were placed against the water background, but this required a lighter container box for purposes of visibility, and it was felt that this feature did not work well on the slimmest mobile phones. Therefore, it was decided to keep the headings section separate at the top. Moving the water background to the images section also helped with the styling of the images. These were set to flex flow (row), and they looked better on a wide variety of devices with a background instead of the default white. A more experienced developer with more time could simply have the images in a row, with the user able to use an arrow to make scroll horizontally through the images.
-
-All images that failed to load, showing alt text instead, were removed and, if necessary, replaced.
+All images that failed to load, showing alt text instead, were removed and, if necessary,  replaced.
 
 Testing for responsiveness was done continually. One of the problems encountered is that the photos on the main page would stack up over the header and outside the background against which they were intended to display.
 
