@@ -84,9 +84,10 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* From */
-.menuanchor {
-    scroll-margin-top: 55px;
+/* Fix section heads navigated to being hidden by header, From stack overflow*/
+
+.anchor {
+    scroll-margin-top: 75px;
 }
 
 /* Main */
@@ -162,8 +163,6 @@ main {
 }
 
 
-
-
 /* About Us section */
 
 .section {
@@ -191,6 +190,9 @@ main {
 section h4 {
     padding: 10px;
 }
+
+
+
 
 /* Accommodations */
 #accomwrapper {
@@ -337,13 +339,20 @@ footer p {
     main {
         margin-top: 69px;
         }
-
     #navul {
             font-size: 75%;
         }
-    .menuanchor {
-        scroll-margin-top: 69px;
+
+    /* .aboutus {
+        position: absolute;
+        top: -69px;
+        left: 0;
     }
+    .contactus {
+        position: absolute;
+        top: -69px;
+        left: 0;
+    } */
 }
 
     /* Media query for tablets and larger */
