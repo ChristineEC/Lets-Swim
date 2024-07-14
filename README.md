@@ -1,20 +1,25 @@
-#Swim with Chrissy
-##Private swim lessons
+# Let's Swim!
+## Private swim lessons accommodating special needs and special requests
 
 ### Description
+The goal of the website is to increase access to swimming lessons by offering private swimming lessons that accommodate special needs or personal, religious or cultural requirements.
 
+The site is aimed at people with some form of disabilty, such as autism, and people whose religious beliefs, cultural background or other personal characteristics cause them to avoid swimming lessons due to barriers such as lack of privacy, a too-overwhelming environment, and so on.
 
+The site-owner is a mother-and-daughters team of certified instructors, and the site informs the user that, while the daughters engage in teaching as a side-job to their studies, the mother provides lessons in her free time to people who lack access in some form, including financial barriers. Such lessons are not necessarily paid. That is, discounts and fee waivers are available, since the primary goal is to increase water safety in the community.
 
+Site-users are offered some reasons why a person should learn how to swim, the most prominent (that it is an important survival skill) listed first.
 
+The list of possible accommodations features prominently on the site, as further encouragement for the reluctant student to seek services.
 
+The tone of the website is friendly and welcoming.
 
+### Features
 
-###Features
+#### Header
+The header contains an h1 with an anchor element linked to the home page, as well as a nav bar linked to the different sections of this one-page website. Flex properties were used to make the nav bar wrap under the heading for smaller screen sizes. The nav bar is styled to show horizontally at all times,and a hover feature comes into play on larger screens to indicate when the user hovers over the menu item. The pseudoclass a:hover was used to accomplish this and is applied through a media query. 
 
-####Header
-The header contains an H1 with an anchor element linked to the home page, as well as a nav bar linked to the different pages of the website. Flex properties were used to make the nav bar wrap under the heading for smaller screen sizes. The nav bar was further styled to show horizontally, then stack when wrapped, and the list style was set to none. The pseudoclass a:hover was applied to the nav bar to indicate when the user hovers over the menu item.
-
-The code for horizontally centering the logo (text) and the nav using line-height was taken from the Love Running Navigation Styling 2 video. Help with flex properties was obtained from [Flexbox Froggy](https://flexboxfroggy.com/).
+Help with flex properties was obtained from [Flexbox Froggy](https://flexboxfroggy.com/).
 
 For a reminder on how to style the nav list items horizontally, I referred to [W3 Schools](https://www.w3schools.com/css/css_navbar_horizontal.asp).
 

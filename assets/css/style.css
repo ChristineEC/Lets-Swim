@@ -319,8 +319,6 @@ button {
     font-family: "Montserrat", sans-serif;
     /* Box Shadow from getcssscan.com */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 20px;
-
 }
 
 /* Footer */
@@ -350,8 +348,6 @@ button {
     #navul {
             font-size: 75%;
         }
-
-
 }
 
     /* Media query for tablets and larger */
