@@ -233,10 +233,6 @@ img {
 .table p {
     text-align: center;
 }
-/* Table centering from https://www.geeksforgeeks.org/how-to-center-a-table-with-css/ */
-table {
-    margin: auto;
-}
 .table p {
     padding-top: 10px;
 }
@@ -245,6 +241,8 @@ caption {
 }
 table {
     table-layout: fixed;
+ /* Table centering help from https://www.geeksforgeeks.org/how-to-center-a-table-with-css/ */   
+    margin: auto;
     width: 300px;
     border: 1px solid rgb(29, 10, 138); 
 }
@@ -267,14 +265,11 @@ tr {
 }
 
 /* Contact Section */
-
 #bizinfo {
     text-align: center;
     font-weight: bold;
 }
-
 /* Contact Form */
-
 #contact-form {
     width: 100%;
     padding: 20px;
@@ -282,21 +277,17 @@ tr {
     border: solid 1px rgb(152, 223, 245);
     margin-bottom: 20px;
 }
-
 .info-entry-line {
     padding: 10px;
 }
-
 .form-info-input {
     width: 100%;
     min-height: 100px;
 }
-
 .button {
     display: flex;
     justify-content: space-around;
 }
-
 button {
     padding: 5px;
     font-family: "Montserrat", sans-serif;
@@ -311,15 +302,13 @@ footer {
     bottom: 0;
     padding: 20px;
 }
-
 footer p {
     text-align: center;
     font-size: 75%;
 }
-    .socmedicon {
-        padding: 20px;
-    }
-
+.socmedicon {
+    padding: 20px;
+}
 
 @media screen and (max-width: 480px) {
     main {
