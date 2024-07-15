@@ -73,11 +73,6 @@ nav a {
     text-decoration: none;
 }
 
-/* To show where user hovers over a nav link */
-nav a:hover {
-    border-bottom: 1px solid #191970;
-}
-
 #navul li {
     padding-left: 10px;
     text-decoration: none;
@@ -335,5 +330,10 @@ footer p {
     .centerhead {
         padding-top: 89px;
         margin-top: -89px;
+    }
+}
+@media screen and (min-width: 992) {
+nav a:hover {
+    border-bottom: 1px solid #191970;
     }
 }
