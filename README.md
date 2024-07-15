@@ -70,9 +70,26 @@ The navigation and social media links (and the overall site responsivity) were t
 Lighthouse scores were good: 
 ![Lighthouse](vscode-local:/Screenshot%202024-07-15%20223055.png)
 
+The form was tested using []https://formdump.codeinstitute.net/) and worked perfectly in all browsers tested.
+
+The website was tested for responsiveness continually through Chrome's dev tool. I also used [Am I Responsive](https://amiresponsive.co.uk/), and the result was good. 
+![screenshot of website on different-sized devices](<Screenshot 2024-07-16 001657.png>)
 
 
-#### Bugs Encountered
+#### Bugs Encountered (and Solved)
+The anchor tag that I had attached to the word * *contact** in the accommodations section seemed to be autostyled by the brower, and was in any case, as shown in the Chrome dev tool, not styled by my CSS. I was unable to override it as I had done for the nav anchors, despite targeting it a number of different ways and giving it the property of 'text-decoration:none'. I also tried just changing the color to a color matching the surrounding text, but this was not possible either. The autostyled color was too dark to be seen against the dark background. I was able to change the background color of the word, but that was unattractive and looked unprofessional. 
+The fix was to simply remove the hyperlink since the part of the page it was linked to was lamost immediately below the paragraph anyway. In fact, it may have seemed odd to users of even medium-sized screens to have a link to something already showing on their screens just a paragraph or so below. This, together with the fact that the user always has the navigation bar showing at the top, with * *Contact** as an option, meant that the link was redundant in any case and could be removed without diminishing user experience.
+
+Next, the navigation from the nav bar worked, except that the top of the sections navigated to (except for * * home * *, as the main element was given a margin to avoid this and the header given a high z-index) would be hidden and the user needed to scroll just a bit to see the title of the section. Adding margin tops to the navigable sections did not solve the problem. 
+
+The solution I used was to add padding-tops to those section equal to the height of the header (plus any original padding-top already planned for the section) together with a negative margin-top of the same height. The code was as follows: '.centerhead {padding-top: 75px; margin-top: -75px}' These heights were adjusted through a media query to 89px and -89px, respectively, for smaller screens. I found the solution by reading through posts on [CSS Tricks](https://css-tricks.com/hash-tag-links-padding/).
+
+Third, I was unable to add favicon files to my directory for some reason. I received tutoring help, but my tutor was unable to see any reason that I could not add the files, despite my sharing my workspace. He was able to do so on his end, and he added the files to my assets directory for me, in a subfolder I had created for icons. I was then able to include the necessary links in the header. They didn't work immediately and I noticed that they had the wrong relative file paths, so I fixed those and the favicon finally showed in the browser.
+
+Finally, the website was receiving very low scores on performance in Lighthouse due to large image files, which were unnecessary for my purposes. 
+I reduced the files on my PC using built-in software and replaced the large files in images file with the smaller ones. This brought the performance score into the high 70s from somewhere in the 30s.
+
+All images that failed to load, showing alt text instead, were fixed (usually a typographical error somewhere) or removed and replaced.
 
 ### Deployment
 
@@ -105,6 +122,5 @@ The footer includes the name of the business, city and country location (as the 
 
 ### Credits
 
-To make the user's additional comments in the form wrap inside the text box, I use a textarea element instead of an input type="text. I learned this from [W3Schools.com](https://www.w3schools.com/tags/tag_textarea.asp#:~:text=The%20element%20is%20often,attributes%20(or%20with%20CSS).
+To make the user's additional comments in the form wrap inside the text box, I use a textarea element instead of a 'input type=text'. I learned this from [W3Schools.com](https://www.w3schools.com/tags/tag_textarea.asp#:~:text=The%20element%20is%20often,attributes%20(or%20with%20CSS).
 
-All images that failed to load, showing alt text instead, were fixed (usually a typographical error somewhere) or removed and replaced.
