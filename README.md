@@ -37,7 +37,6 @@ The most prominent feature of the About Us section is a bulleted and spaced list
 
 The regular business hours appear in a simple **table** at the bottom of this section, but with a white background, to maintain the prominence of the accommodations section.
 
-
 #### The Contact section
 
 Like the About Us section, the Contact section has an anchor tag at its h2 header, enabling the navigation link in the header to function. This section includes the location, phone number and email to the business, followed by an invitation to the user to fill out the contact details in the included form. 
@@ -53,41 +52,59 @@ The footer section contains text of the site owner's location and contact detail
 ### Features Left to Implement
 
 A telephone-number input field is the first feature that should be implemented, with radio button to indicate whether the phone number is to a fixed or mobile phone.
+
 A checklist allowing the site-user to include more information, rather than having to type it in a field, would increase user experience significantly. The checklist should include the user's preferred mode of communication.
+
 A radio-button list could also be included to help the site owners narrow down whether the mother or the daughters might be the best to answer the user's eventual query.
 The site could be updated to include more information about different types of local resources for the target audience.
 
+### Testing
 
+#### Validator Testing
+The html and CSS files were tested and passed with no errors or warnings in the [W3C (Jigswa) validator](https://validator.w3.org/) and in the [W3C CSS validator](https://jigsaw.w3.org/css-validator/), respectively.
+
+The website was opened on a PC laptop, a large screen (PC), an iPhone 12xPro, and a Samsung Z Flip 4, and it looked good on all of those devices. I used Chrome's dev tool to continually check the site for responsiveness at all sizes, and the site looks good on all screen sizes.
+
+The navigation and social media links (and the overall site responsivity) were tested in Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera and IOS (iPhone), and all worked as it should.
+
+Lighthouse scores were good: 
+![Lighthouse](vscode-local:/Screenshot%202024-07-15%20223055.png)
+
+
+
+#### Bugs Encountered
+
+### Deployment
+
+### Credits
+
+#### Content
+Statistics on drowning in children were obtained from the Centers for Disease Prevention and Control, or the [CDC](https://www.cdc.gov/media/releases/2024/s0514-vs-drowning.html#:~:text=Over%204%2C500%20people%20died%20due,this%20latest%20Vital%20Signs%20report).
+Statistics on drowning among autistic people were obtained from [Autism Society Florida](https://www.autismfl.org/drowning-prevention), who were quoted directly by the American Red Cross.
+
+#### Media
+All images were downloaded from Pexels.com and have links in the alt text in the html files, except for one background image, which was from Pexels as well and was contributed there by Julie Aagaard.
+
+#### Help with Code
+My mentor suggested, and I used, for the form submit and reset buttons, a particular shadow-box styling from GetCSSscan.com.
 
 Help with flex properties was obtained from [Flexbox Froggy](https://flexboxfroggy.com/).
 
-For a reminder on how to style the nav list items horizontally, I referred to [W3 Schools](https://www.w3schools.com/css/css_navbar_horizontal.asp).
+For a reminder on how to style the nav list items horizontally using flexbox, I referred to [W3 Schools](https://www.w3schools.com/css/css_navbar_horizontal.asp).
 
 For a reminder of the correct syntax for using the hover pseudoclass, I referred to the Love Running video Navigation Styling 2 as well as [MDN Web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover). My first solution worked in the browser but failed a validation test, and that is when I consulted MDN.
 
-I resolved an error message the nav elements containing more than one class attribute, with class= used twice, by placing both attributes inside the same set of parentheses.
 
 
 
-/ * Testing and Validation */
 
-All images that failed to load, showing alt text instead, were removed and, if necessary,  replaced.
 
-Testing for responsiveness was done continually. One of the problems encountered is that the photos on the main page would stack up over the header and outside the background against which they were intended to display.
 
-/*Working on bug to make text in hero div not only center at top of div but into the center of the div, if possible.
-
-###Footer
+### Footer
 The footer includes the name of the business, city and country location (as the business is home-based--more detailed location to be included on the contact page), contact details, and two hyperlinked social media icons that open in new table, with aria-labels (for accessibility) inviting the user to visit the business on Facebook and Instagram, respectively. The footer has been made responsive using flex properties, and the height is set to auto to enhance responsiveness.
 
-
-
-
-
-
-
-
-###Credits
+### Credits
 
 To make the user's additional comments in the form wrap inside the text box, I use a textarea element instead of an input type="text. I learned this from [W3Schools.com](https://www.w3schools.com/tags/tag_textarea.asp#:~:text=The%20element%20is%20often,attributes%20(or%20with%20CSS).
 
+All images that failed to load, showing alt text instead, were fixed (usually a typographical error somewhere) or removed and replaced.
