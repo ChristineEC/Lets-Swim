@@ -110,13 +110,19 @@ All images that failed to load, showing alt text instead, were fixed (usually a 
 
 ### Deployment
 
-The site is being deployed no to GitHub pages. At that time, I will need to fill out this section, as I do not know what will happen yet, as I've never done it before.
+The site is being deployed no to GitHub pages. At that time, I will need to fill out this section, as I do not know what will happen yet because I've never done it before.
 
 ### Credits
 
 #### Content
 Statistics on drowning in children were obtained from the Centers for Disease Prevention and Control, or the [CDC](https://www.cdc.gov/media/releases/2024/s0514-vs-drowning.html#:~:text=Over%204%2C500%20people%20died%20due,this%20latest%20Vital%20Signs%20report).
 Statistics on drowning among autistic people were obtained from [Autism Society Florida](https://www.autismfl.org/drowning-prevention), who were quoted directly by the American Red Cross.
+
+The icons in the footer as well as the main section were taken from [Font Awesome](https://fontawesome.com/).
+
+[Google Fonts](https://fonts.google.com/) was used for the fonts.
+
+The favicon was obtained from [Favicon.io](https://favicon.io/).
 
 #### Media
 All images were downloaded from Pexels.com and have links in the alt text in the html files, except for one background image, which was from Pexels as well and was contributed there by Julie Aagaard.
