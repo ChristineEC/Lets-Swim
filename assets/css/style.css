@@ -332,8 +332,8 @@ footer p {
         margin-top: -89px;
     }
 }
-@media screen and (min-width: 992) {
-nav a:hover {
+@media screen and (min-width: 992px) {
+    #navul a:hover {
     border-bottom: 1px solid #191970;
     }
 }

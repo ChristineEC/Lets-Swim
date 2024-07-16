@@ -79,11 +79,15 @@ The website was opened on a PC laptop, a large screen (PC), an iPhone 12xPro, an
 The navigation and social media links (and the overall site responsivity) were tested in Chrome, Mozilla Firefox, Microsoft Edge, Safari, Opera and IOS (iPhone), and all worked as it should.
 
 Lighthouse scores were good: 
-![Lighthouse](vscode-local:/Screenshot%202024-07-15%20223055.png)
+
+![alt text](<Screenshot 2024-07-16 020322.png>)
 
 The form was tested using []https://formdump.codeinstitute.net/) and worked perfectly in all browsers tested.
 
+![alt text](<Screenshot 2024-07-15 181330.png>)
+
 The website was tested for responsiveness continually through Chrome's dev tool. I also used [Am I Responsive](https://amiresponsive.co.uk/), and the result was good. 
+
 ![screenshot of website on different-sized devices](<Screenshot 2024-07-16 001657.png>)
 
 
