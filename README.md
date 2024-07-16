@@ -90,6 +90,8 @@ The website was tested for responsiveness continually through Chrome's dev tool.
 
 ![screenshot of website on different-sized devices](<Screenshot 2024-07-16 001657.png>)
 
+After deployment, and revising image filepaths, I checked to ensure all other interactive elements were working as they should (they did), and whether the site still looked good on Chrome. I also checked that everything worked well on Firefox, IOS, Opera and Microsoft Edge.
+
 
 #### Bugs Encountered (and Solved)
 The anchor tag that I had attached to the word * *contact** in the accommodations section seemed to be autostyled by the brower, and was in any case, as shown in the Chrome dev tool, not styled by my CSS. I was unable to override it as I had done for the nav anchors, despite targeting it a number of different ways and giving it the property of 'text-decoration:none'. I also tried just changing the color to a color matching the surrounding text, but this was not possible either. The autostyled color was too dark to be seen against the dark background. I was able to change the background color of the word, but that was unattractive and looked unprofessional. 
@@ -106,11 +108,15 @@ Finally, the website was receiving very low scores on performance in Lighthouse 
 
 I reduced the files on my PC using built-in software and replaced the large files in the images folder with the smaller ones. This brought the performance score into the high 70s from somewhere in the 30s.
 
-All images that failed to load, showing alt text instead, were fixed (usually a typographical error somewhere) or removed and replaced.
+All images that failed to load (pre-deployment) and showed alt text instead were fixed (usually a typographical error somewhere) or removed and replaced.
+
+After deployment, however, most of the image files failed to load. I used the dev tool in Chrome to edit the html to see if the relative file paths needed to be changed. One dot (.) before the file path /images needed to be removed. The image that did not have ../ before images still loaded, but I switched that one to ./images... just in case. After revising the file paths, the images appeared on the deployed site. 
 
 ### Deployment
 
-The site is being deployed no to GitHub pages. At that time, I will need to fill out this section, as I do not know what will happen yet because I've never done it before.
+From GitHub, I opened the repository (and renamed it to fit my final submission), then navigated to the Settings menu. From there, I chose Pages from the dropdown menu under Code and Automation. There I selected the main branch and saved. Not everything looked well, so I unpublished (unnecessarily, I now believe) and fixed some errors with image file paths. I republished by telling GitHub to rerun the tasks. The live website can be found here:
+
+https://christineec.github.io/Lets-Swim/
 
 ### Credits
 
